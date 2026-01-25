@@ -32,9 +32,9 @@ jobs:
 
       - name: Build
         env:
-          # Project Pages base path for: https://rbalestr-lab.github.io/galilai-group.github.io/
-          # If/when this becomes the ROOT org site (https://<org>.github.io/), set this to empty.
-          PUBLIC_URL: /galilai-group.github.io
+          # Project Pages base path for: https://galilai-group.github.io/
+          # Since this is the ROOT org site (https://galilai-group.github.io/), set this to empty.
+          PUBLIC_URL: ""
         run: |
           npm run build
           touch build/.nojekyll
