@@ -19,6 +19,15 @@
       },
 
       {
+        "name": "Humzah Merchant",
+        "role": "phd",
+        "role_title": "Incoming PhD Student",
+        "image": "/assets/images/people/humzah_merchant.jpeg",
+        "researchInterests": "ML + Finance",
+        "personalWebsite": "https://www.humzahmerchant.com"
+      },
+
+      {
         "name": "Hugues Van Assel",
         "role":"visiting-researcher",
         "role_title": "Postdoc @ Genentech",
