@@ -7,11 +7,12 @@
     <!--
       GitHub Pages SPA redirect
       Keeps deep links working with BrowserRouter by redirecting 404s to /?/<path>
-      If/when this becomes a ROOT Pages site (https://<org>.github.io/), set pathSegmentsToKeep = 0.
+      This is a ROOT Pages site (https://<org>.github.io/), so pathSegmentsToKeep = 0.
+      If it ever moves to a project page (https://<org>.github.io/<repo>/), set it to 1.
     -->
     <script type="text/javascript">
       (function () {
-        var pathSegmentsToKeep = 1; // project page: https://<org>.github.io/<repo>/
+        var pathSegmentsToKeep = 0; // root org site: https://galilai-group.github.io/
 
         var l = window.location;
         var origin = l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '');
